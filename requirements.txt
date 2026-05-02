@@ -1,0 +1,17 @@
+# RAG + Gemini (embeddings + generation) — unified SDK
+google-genai>=1.38.0
+
+# Local embedding fallback (runs on your machine, no embedding API quota)
+sentence-transformers>=3.1.1
+
+# Vector database (persists to disk under ./chroma_data)
+chromadb>=0.5.23
+
+# PDF text extraction
+pymupdf>=1.24.14
+
+# Web UI for interactive chat
+streamlit>=1.39.0
+
+# Load GOOGLE_API_KEY from .env
+python-dotenv>=1.0.1
